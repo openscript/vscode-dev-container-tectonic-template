@@ -15,7 +15,9 @@
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
     "james-yu.latex-workshop",
-    "valentjn.vscode-ltex"
+    "valentjn.vscode-ltex",
+    "be5invis.toml",
+    "yzhang.markdown-all-in-one"
   ],
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
