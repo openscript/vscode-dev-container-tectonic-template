@@ -1,6 +1,6 @@
 name: 'Continuous delivery'
 
-on: 
+on:
   push:
 
 jobs:
@@ -20,7 +20,7 @@ jobs:
       - uses: wtfjoke/setup-tectonic@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          biber-version: "2.16"
+          biber-version: "2.17"
       - name: Run Tectonic and Biber
         run: tectonic -X build
       - name: Upload pdf
